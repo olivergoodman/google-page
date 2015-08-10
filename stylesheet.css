@@ -1,0 +1,150 @@
+/* My stylesheet for google-page*/
+
+* {
+	margin: 0;
+	font-family: arial, sans-serif;
+}
+
+html, body {
+	height: 100%;
+}
+
+#container {
+	min-height: 100%;
+	margin: 0 auto -50px; /*same as height of footer*/
+}
+
+#header {
+	height: 50px;
+	width: 100%;
+}
+
+#navbar {
+    list-style-type: none;
+    margin: 0;
+    padding-right: 30px;
+    text-align: right; 
+    margin-top: 10px;
+}
+
+li {
+	display: inline; 
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+	font-size: 15px;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+#name {
+	color: #979792;
+}
+
+#blueman {
+	border-radius: 20px;
+	margin-bottom: -5px;
+}
+
+#center {
+	display:block;
+	text-align: center;
+}
+
+#logo {
+	width: 269px; height: 95px;
+    position: relative;
+	text-align: center;
+	padding-top: 150px;
+}
+
+.search-bar {
+	text-align: center;
+	margin-bottom: 10px;
+	position: relative;
+}
+
+#mic-pic {
+	height:22px;
+	width: auto;
+	position: absolute;
+	display: inline-block;
+	float: right;
+	left: 1022px;
+	margin-top: 5px;
+	
+}
+
+#mic {
+	height: 20px;
+	width: auto;
+	display: inline-block;
+	margin: 0;
+	float: right;
+}
+
+#search {
+	font-family: arial, sans-serif;
+}
+
+input[type=text] {
+	border: 1px solid #e4e4e4;
+	width: 500px;
+	height: 27px;
+	font-size: 16px;
+	padding-left: 5px;
+}
+
+input[type=text]:hover {
+	border: 1px solid #B6B6B6;
+}
+
+input[type=submit] {
+	margin-top: 8px;
+	background: #f2f2f2;
+	border: 1px solid #e4e4e4;
+	border-radius: 2px;
+	padding: 6px;
+	font-weight: bolder;
+	margin: 11px 8px;
+}
+
+input[type=submit]:hover {
+	border: 1px solid gray;
+}
+
+.push {
+	height:50px; /*same as height of footer*/
+}
+
+#footer {
+    background: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+    line-height: 40px;
+    min-width: 100%;
+    bottom: 0;
+    position: absolute;
+    display: block;
+}
+
+#footer #l_footer {
+	float: left;
+	margin-left: -20px;
+}
+
+#footer #r_footer {
+	float: right;
+	margin-right: 20px;
+}
+
+#footer a {
+	color: #5E5E5A;
+	font-style: bold;
+}
+\ No newline at end of file
